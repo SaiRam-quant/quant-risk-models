@@ -37,6 +37,28 @@ I will add more models soon:
 - [ ] Stress Testing (shock scenarios)
 - [ ] Bond Duration & Convexity
 - [ ] XVA: CVA/DVA Modeling
+---
+
+## 📊 Option Greeks – Delta, Gamma, Vega
+
+This notebook shows how option sensitivities (Greeks) change with stock price.
+
+### Assumptions:
+- Underlying: ₹100 stock
+- Strike: ₹100 (ATM)
+- Volatility: 25%
+- Time to expiry: 30 days
+- Risk-free rate: 5%
+
+### Insights:
+- **Delta** rises with price and tells us how option reacts to price moves.
+- **Gamma** peaks at ATM → high delta risk when near expiry.
+- **Vega** is highest at ATM → tells how sensitive the option is to volatility changes.
+
+🧠 I used this model to understand option hedging and how risk changes near expiry.
+
+> 🔧 Inspired using ChatGPT, customized with my logic and assumptions.
+
 
 ---
 

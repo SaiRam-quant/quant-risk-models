@@ -30,15 +30,6 @@ VaR 99% ≈ ₹47,452
 
 ---
 
-## 🚀 What's Next?
-
-I will add more models soon:
-- [ ] Option Greeks (Delta, Gamma, Vega)
-- [ ] Stress Testing (shock scenarios)
-- [ ] Bond Duration & Convexity
-- [ ] XVA: CVA/DVA Modeling
----
-
 ## 📊 Option Greeks – Delta, Gamma, Vega
 
 This notebook shows how option sensitivities (Greeks) change with stock price.

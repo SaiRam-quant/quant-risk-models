@@ -30,7 +30,7 @@ VaR 99% ≈ ₹47,452
 
 ---
 
-## 📊 Option Greeks – Delta, Gamma, Vega
+## 🧠 Project 2: Option Greeks – Delta, Gamma, Vega
 
 This notebook shows how option sensitivities (Greeks) change with stock price.
 
@@ -50,7 +50,7 @@ This notebook shows how option sensitivities (Greeks) change with stock price.
 
 
 
-Stress Testing – Portfolio Under Volatility Shock
+## 🧠 Project 3:Stress Testing – Portfolio Under Volatility Shock
 
 This simulation models a ₹10 lakh portfolio over 1 year using Monte Carlo.  
 It compares normal vs stressed volatility scenarios.

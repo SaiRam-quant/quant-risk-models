@@ -2,22 +2,23 @@
 
 Welcome! This repository contains practical risk models used in portfolio risk management, implemented using Python.
 
----
-
 ## 🧠 Project 1: Value at Risk (VaR) – Monte Carlo Simulation
 
-This notebook estimates **1-day VaR** using a Monte Carlo approach:
+This model estimates potential loss using a 1-day Monte Carlo simulation.  
+We model daily returns as normally distributed and simulate 10,000 paths.
 
-- Simulates 100,000 possible daily returns
-- Uses normal distribution based on daily mean and volatility
-- Calculates **95% and 99% Value at Risk**
-- Visualizes the simulated loss distribution with VaR markers
+### Assumptions:
+- Initial Portfolio: ₹10,00,000
+- Annual Return: 12%
+- Annual Volatility: 20%
+- Time Horizon: 1 day
+- Simulations: 10,000
+- Model: Geometric Brownian Motion
 
-📁 File: `VaR_MonteCarlo_Sai.ipynb`
-
-📈 Sample Output:
-VaR 95% ≈ ₹34,010
-VaR 99% ≈ ₹47,452
+### Insights:
+- Simulated 1-day loss using lognormal paths
+- VaR 95% = ₹34,010 → 5% chance of losing more than this in a day
+- VaR 99% = ₹47,452 → 1% chance of worse loss
 
 ## 🧠 Project 2: Option Greeks – Delta, Gamma, Vega
 
@@ -36,8 +37,6 @@ This notebook shows how option sensitivities (Greeks) change with stock price.
 - **Vega** is highest at ATM → tells how sensitive the option is to volatility changes.
 
 🧠 I used this model to understand option hedging and how risk changes near expiry.
-
-
 
 ## 🧠 Project 3:Stress Testing – Portfolio Under Volatility Shock
 

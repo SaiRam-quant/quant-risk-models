@@ -68,7 +68,6 @@ It compares normal vs stressed volatility scenarios.
 - VaR shifts significantly — from ~₹70K to ₹1.8 lakh.
 - Fund managers use this to build **capital buffers** and avoid leverage traps.
 ---
-
 ## 👤 Author
 
 **Sai Ram**  

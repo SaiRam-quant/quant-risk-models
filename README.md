@@ -48,6 +48,8 @@ This notebook shows how option sensitivities (Greeks) change with stock price.
 
 🧠 I used this model to understand option hedging and how risk changes near expiry.
 
+
+
 ## 📉 Week 3: Stress Testing – Portfolio Under Volatility Shock
 
 This simulation models a ₹10 lakh portfolio over 1 year using Monte Carlo.  

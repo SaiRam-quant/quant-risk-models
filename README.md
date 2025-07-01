@@ -19,17 +19,6 @@ This notebook estimates **1-day VaR** using a Monte Carlo approach:
 VaR 95% ≈ ₹34,010
 VaR 99% ≈ ₹47,452
 
----
-
-## 📚 Tools Used
-- Python
-- NumPy
-- Seaborn
-- Matplotlib
-- Jupyter / Google Colab
-
----
-
 ## 🧠 Project 2: Option Greeks – Delta, Gamma, Vega
 
 This notebook shows how option sensitivities (Greeks) change with stock price.
